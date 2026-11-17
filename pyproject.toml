@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "memory-autopsy"
+version = "0.1.0"
+description = "Post-mortem diagnosis of an agent's memory system: attributes each decision to the records that shaped it and blames stale, contradicted, superseded, poisoned and unused records."
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "Amna Raheeba" }]
+requires-python = ">=3.10"
+dependencies = []
+
+[project.optional-dependencies]
+dashboard = ["streamlit"]
+
+[project.scripts]
+memory-autopsy = "memory_autopsy.__main__:main"
+
+[tool.setuptools.packages.find]
+include = ["memory_autopsy*"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
