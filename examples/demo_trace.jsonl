@@ -1,0 +1,14 @@
+{"type": "write", "record_id": "r1", "key": "hotel", "value": "Hilton", "source": "agent", "t": 1, "supersedes": null}
+{"type": "write", "record_id": "r2", "key": "hotel", "value": "Marriott", "source": "agent", "t": 2, "supersedes": "r1"}
+{"type": "read", "decision_id": "d1", "record_id": "r1", "rank": 1, "t": 3}
+{"type": "read", "decision_id": "d1", "record_id": "r2", "rank": 2, "t": 4}
+{"type": "decision", "decision_id": "d1", "key": "hotel", "chosen": "Hilton", "correct_value": "Marriott", "outcome": "incorrect", "t": 5}
+{"type": "write", "record_id": "r3", "key": "flight", "value": "PK701", "source": "tool", "t": 6, "supersedes": null}
+{"type": "write", "record_id": "r4", "key": "flight", "value": "PK999", "source": "untrusted", "t": 7, "supersedes": null}
+{"type": "read", "decision_id": "d2", "record_id": "r4", "rank": 1, "t": 8}
+{"type": "read", "decision_id": "d2", "record_id": "r3", "rank": 2, "t": 9}
+{"type": "decision", "decision_id": "d2", "key": "flight", "chosen": "PK999", "correct_value": "PK701", "outcome": "incorrect", "t": 10}
+{"type": "write", "record_id": "r5", "key": "restaurant", "value": "Lahore Tikka", "source": "agent", "t": 11, "supersedes": null}
+{"type": "read", "decision_id": "d3", "record_id": "r5", "rank": 1, "t": 12}
+{"type": "decision", "decision_id": "d3", "key": "restaurant", "chosen": "Lahore Tikka", "correct_value": "Lahore Tikka", "outcome": "correct", "t": 13}
+{"type": "write", "record_id": "r6", "key": "doctor", "value": "Dr. Ayesha", "source": "agent", "t": 14, "supersedes": null}
