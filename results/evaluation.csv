@@ -1,0 +1,11 @@
+verdict,tp,fp,fn,precision,recall
+poisoned,303,0,0,1.0,1.0
+stale,300,0,0,1.0,1.0
+overruled,894,0,0,1.0,1.0
+contradicted,291,0,0,1.0,1.0
+helpful,504,0,0,1.0,1.0
+misleading,59,0,0,1.0,1.0
+bystander,0,0,0,,
+unresolved,50,0,0,1.0,1.0
+superseded,356,0,0,1.0,1.0
+unused,50,0,0,1.0,1.0

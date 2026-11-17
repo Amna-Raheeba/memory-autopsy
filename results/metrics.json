@@ -1,0 +1,119 @@
+{
+  "by_scenario": {
+    "contradictory": {
+      "decisive_recovery": 1.0,
+      "decisive_right": 250,
+      "decisive_total": 250,
+      "traces": 50
+    },
+    "healthy": {
+      "decisive_recovery": 1.0,
+      "decisive_right": 250,
+      "decisive_total": 250,
+      "traces": 50
+    },
+    "mixed": {
+      "decisive_recovery": 1.0,
+      "decisive_right": 350,
+      "decisive_total": 350,
+      "traces": 50
+    },
+    "poisoned": {
+      "decisive_recovery": 1.0,
+      "decisive_right": 250,
+      "decisive_total": 250,
+      "traces": 50
+    },
+    "stale": {
+      "decisive_recovery": 1.0,
+      "decisive_right": 250,
+      "decisive_total": 250,
+      "traces": 50
+    }
+  },
+  "decisions": 1350,
+  "decisive_recovery": 1.0,
+  "decisive_right": 1350,
+  "decisive_total": 1350,
+  "per_verdict": {
+    "bystander": {
+      "fn": 0,
+      "fp": 0,
+      "precision": null,
+      "recall": null,
+      "tp": 0
+    },
+    "contradicted": {
+      "fn": 0,
+      "fp": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "tp": 291
+    },
+    "helpful": {
+      "fn": 0,
+      "fp": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "tp": 504
+    },
+    "misleading": {
+      "fn": 0,
+      "fp": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "tp": 59
+    },
+    "overruled": {
+      "fn": 0,
+      "fp": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "tp": 894
+    },
+    "poisoned": {
+      "fn": 0,
+      "fp": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "tp": 303
+    },
+    "stale": {
+      "fn": 0,
+      "fp": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "tp": 300
+    },
+    "superseded": {
+      "fn": 0,
+      "fp": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "tp": 356
+    },
+    "unresolved": {
+      "fn": 0,
+      "fp": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "tp": 50
+    },
+    "unused": {
+      "fn": 0,
+      "fp": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "tp": 50
+    }
+  },
+  "rates": {
+    "contradiction_rate": 0.2156,
+    "poison_influence_rate": 0.3179,
+    "redundant_decision_rate": 0.1163,
+    "stale_read_rate": 0.1249
+  },
+  "reads": 2401,
+  "records": 2807,
+  "traces": 250
+}
